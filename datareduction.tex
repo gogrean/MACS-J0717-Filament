@@ -1,0 +1,10 @@
+\section{Data Processing and Background Modeling}
+\label{sec:DataAnalysis}
+
+\chandra\ observed MACS~J0717.5+3745 four times between Jan 2001 and Dec 2013, for a total of 243~ks. Of the four ObsIDs, two (1655 and 16235) were taken in FAINT mode, while the other two (4200 and 16305) were taken in VFAINT mode. More details about the observation parameters can be found at the \href{http://cda.harvard.edu/chaser/}{Chandra Data Archive}.
+
+The ObsIDs were reprocessed to apply the newest calibration files as of Jan 2004. Time periods affected by soft protons were removed from the data using the \textsc{ciao} script \emph{deflare}. The total clean exposure time after flare filtering was approximately 209~ks. Point sources were detected in the energy bands $0.5-2$ and $2-7$~keV using the script \emph{wavdetect}, were visually confirmed, and excluded from the analysis. The instrumental background was subtracted using the stowed background files available in CalDB~4.6.3. Before subtraction, the instrumental background files were normalized to have the same $10-12$~keV count rate as the corresponding source files. 
+
+The sky background was modeled as the sum of unabsorbed emission from the Local Hot Bubble, absorbed emission from the Galactic Halo, and absorbed emission from unresolved X-ray sources. The hydrogen column density was fixed to $8.36\times 10^{20}$~cm$^{-2}$, corresponding to the sum of the atomic and molecular hydrogen column densities in the direction of MACS~J0717.5+3745\footnote{http://www.swift.ac.uk/analysis/nhtot/index.php} \citep{Kalberla2005, Willingale2013}. All the foreground components were assumed to have solar metallicities equal to those reported by \citet{Feldman1992}. 
+
+A more detailed description of the data processing and the background modeling is provided by van Weeren et al., submitted. Our analysis can also be reproduced by the reader by downloading the datasets from the Chandra Data Archive and running the Jupyter notebook\footnote{Running the notebook requires the \href{https://github.com/takluyver/bash\_kernel}{bash\_kernel package}.} available at \url{https://github.com/gogrean}. 
