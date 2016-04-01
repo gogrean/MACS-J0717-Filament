@@ -1,8 +1,13 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{27}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{B{\"o}hringer} \& {Werner}(2010)}]{Bohringer2010}
 {B{\"o}hringer}, H., \& {Werner}, N. 2010, \aapr, 18, 127
+
+\bibitem[{{Bulbul} {et~al.}(2016){Bulbul}, {Randall}, {Bayliss}, {Miller},
+  {Andrade-Santos}, {Johnson}, {Bautz}, {Blanton}, {Forman}, {Jones},
+  {Paterno-Mahler}, {Murray}, {Sarazin}, {Smith}, \& {Ezer}}]{Bulbul2016}
+{Bulbul}, E., {Randall}, S.~W., {Bayliss}, M., {et~al.} 2016, \apj, 818, 131
 
 \bibitem[{{Connor} {et~al.}(2014){Connor}, {Donahue}, {Sun}, {Hoekstra},
   {Mahdavi}, {Conselice}, \& {McNamara}}]{Connor2014}
@@ -28,6 +33,10 @@
 \bibitem[{{Ebeling} {et~al.}(2001){Ebeling}, {Edge}, \& {Henry}}]{Ebeling2001}
 {Ebeling}, H., {Edge}, A.~C., \& {Henry}, J.~P. 2001, \apj, 553, 668
 
+\bibitem[{{Eckert} {et~al.}(2015){Eckert}, {Jauzac}, {Shan}, {Kneib}, {Erben},
+  {Israel}, {Jullo}, {Klein}, {Massey}, {Richard}, \& {Tchernin}}]{Eckert2015}
+{Eckert}, D., {Jauzac}, M., {Shan}, H., {et~al.} 2015, \nat, 528, 105
+
 \bibitem[{{Einasto} {et~al.}(1994){Einasto}, {Einasto}, {Tago}, {Dalton}, \&
   {Andernach}}]{Einasto1994}
 {Einasto}, M., {Einasto}, J., {Tago}, E., {Dalton}, G.~B., \& {Andernach}, H.
@@ -40,6 +49,11 @@
 
 \bibitem[{{Feldman}(1992)}]{Feldman1992}
 {Feldman}, U. 1992, \physscr, 46, 202
+
+\bibitem[{{Gheller} {et~al.}(2015){Gheller}, {Vazza}, {Favre}, \&
+  {Br{\"u}ggen}}]{Gheller2015}
+{Gheller}, C., {Vazza}, F., {Favre}, J., \& {Br{\"u}ggen}, M. 2015, \mnras,
+  453, 1164
 
 \bibitem[{{Jauzac} {et~al.}(2012){Jauzac}, {Jullo}, {Kneib}, {Ebeling},
   {Leauthaud}, {Ma}, {Limousin}, {Massey}, \& {Richard}}]{Jauzac2012}
