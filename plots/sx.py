@@ -60,6 +60,26 @@ def regions():
 
     fig.save('fil-regions.pdf', dpi=144)
 
+    f2 = pylab.figure()
+    fig = aplpy.FITSFigure(root+'src_bin4_500-4000_gapsfilled_flux.img',
+                           figure=f2)
+    fig.show_colorscale(vmin=5e-9, vmax=4e-7, cmap='viridis',
+                        smooth=1, stretch='log')
+    fig.recenter(109.37833, 37.755275, width=0.1, height=0.1)
+
+    fig.tick_labels.set_xformat('hhmmss')
+    fig.tick_labels.set_yformat('ddmmss')
+
+    fig.add_scalebar(0.04348, corner='top left')
+    fig.scalebar.set_color('white')
+    fig.scalebar.set_label('1 Mpc')
+    fig.scalebar.set_font(size='13', family='sans-serif')
+    fig.scalebar.set_linewidth(2)
+
+    fig.show_regions('flythrough.reg')
+
+    fig.save('flythrough-regions.pdf', dpi=144) 
+
 
 def sectors():
     f1 = pylab.figure()

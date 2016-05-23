@@ -3,6 +3,6 @@ regions()
 sectors()
 
 from group import xray, optical, radio
-xray()
-optical()
-radio()
+#xray()
+#optical()
+#radio()
