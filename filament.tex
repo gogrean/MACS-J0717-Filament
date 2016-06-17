@@ -1,4 +1,4 @@
-\section{Large-Scale Cosmic Filament}
+\section{X-ray Emission from the Filament}
 \label{sec:Filament}
 
 \begin{figure*}
@@ -55,7 +55,7 @@
 
 To define the region of the filament that is least contaminated by ICM emission, we examined the surface brightness profile in a rectangular region aligned with the filament. In this region, the surface brightness decreases away from the cluster center, and then increases again when the region intersects the SE group located along the filament; there is no radial range in this region where the surface brightness is flat. This suggests that the ICM of MACS~J0717.5+3745 contaminates the filament, and this contamination needs to be considered when modeling the filament emission.
 
-To model the filament and the contamination from the ICM, we extracted spectra in three rectangular regions: one centered on the filament, and two positioned to the W and to the E of it. These regions are shown in Figure~\ref{fig:fil}. The regions were chosen to avoid the bright parts of the ICM, as well as emission from the SE galaxy group. The emission in the W and E regions was modeled with a single thermal component, while the emission in the filament region was modeled with two thermal components--one describing ICM contamination, whose parameters were linked to those of the thermal component used to describe the W and E regions, and one describing emission from the filament. The spectra from the three regions were fitted simultaneously. Table~\ref{tab:spectra} lists the best-fitting parameters obtained for a gas metallicity of 0.2 solar. Varying the metallicity causes only minor changes to the best-fitting parameters, well within the statistical uncertainty ranges. In the \textsc{Jupyter} notebook supporting this letter, we also show the results obtained for metallicities of 0 and 0.1 solar.
+To model the filament and the contamination from the ICM, we extracted spectra in two rectangular regions: one centered on the filament, and one positioned to the SW of it; NE of the filament, the signal-to-noise is too low for any meaningful information to be extracted from the spectrum. These regions are shown in Figure~\ref{fig:fil}. The regions were chosen to avoid the bright parts of the ICM, as well as emission from the SE galaxy group. The emission in the SW region was modeled with a single thermal component, while the emission in the filament region was modeled with two thermal components--one describing ICM contamination, whose parameters were linked to those of the thermal component used to describe the SW region, and one describing emission from the filament. The spectra from the two regions were fitted simultaneously. Table~\ref{tab:spectra} lists the best-fitting parameters obtained for a gas metallicity of 0.2 solar. Varying the metallicity causes only minor changes to the best-fitting parameters, well within the statistical uncertainty ranges. In the \textsc{Jupyter} notebook supporting this letter, we also list the results obtained for metallicities of 0 and 0.1 solar.
 
 The \textsc{XSpec} normalizations of the thermal components listed in Table~\ref{tab:spectra} are defined as:
 \begin{equation}
@@ -76,7 +76,7 @@ For the density calculated above and assuming a baryon fraction of 0.15 \citep{M
 \end{equation}
 Using the equation above, the baryonic (total) mass of the filament in our spectral extraction region is just $\sim 7\times 10^{11}$~M$_\odot$ ($5\times 10^{12}$~M$_\odot$), thus confirming the fact that we are probing only the densest part of the filament. As the filament extends further out from the cluster, its density will decrease. This decrease in density is important when calculating the mass of the whole filament. For a filament length of 19~Mpc and a baryon fraction of 0.15, the transversal density profile above yields a total mass of $\sim (1-2)\times 10^{14}$~M$_\odot$. 
 
-The calculations made above can be found in the supporting \textsc{IPython} notebook accompanying this paper.  
+The calculations made above can be found in the supporting \textsc{Jupyter} notebook accompanying this paper.  
 
 
 
