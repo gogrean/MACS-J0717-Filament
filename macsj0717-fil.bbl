@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
@@ -104,10 +104,6 @@
   {Infante}, {Jim{\'e}nez-Teja}, {Jouvel}, {Lahav}, {Moustakas}, {Ogaz},
   {Rosati}, {Seitz}, \& {Zheng}}]{Medezinski2013}
 {Medezinski}, E., {Umetsu}, K., {Nonino}, M., {et~al.} 2013, \apj, 777, 43
-
-\bibitem[{{Neumann} {et~al.}(2001){Neumann}, {Arnaud}, {Gastaud}, {Aghanim},
-  {Lumb}, {Briel}, {Vestrand}, {Stewart}, {Molendi}, \& {Mittaz}}]{Neumann2001}
-{Neumann}, D.~M., {Arnaud}, M., {Gastaud}, R., {et~al.} 2001, \aap, 365, L74
 
 \bibitem[{{Springel} \& {Farrar}(2007)}]{Springel2007}
 {Springel}, V., \& {Farrar}, G.~R. 2007, \mnras, 380, 911
