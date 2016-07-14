@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
@@ -61,10 +61,8 @@
 \bibitem[{{Feldman}(1992)}]{Feldman1992}
 {Feldman}, U. 1992, \physscr, 46, 202
 
-\bibitem[{{Gheller} {et~al.}(2015){Gheller}, {Vazza}, {Favre}, \&
-  {Br{\"u}ggen}}]{Gheller2015}
-{Gheller}, C., {Vazza}, F., {Favre}, J., \& {Br{\"u}ggen}, M. 2015, \mnras,
-  453, 1164
+\bibitem[{Hunter(2007)}]{Hunter2007}
+Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90
 
 \bibitem[{{Jauzac} {et~al.}(2012){Jauzac}, {Jullo}, {Kneib}, {Ebeling},
   {Leauthaud}, {Ma}, {Limousin}, {Massey}, \& {Richard}}]{Jauzac2012}
@@ -104,6 +102,10 @@
   {Infante}, {Jim{\'e}nez-Teja}, {Jouvel}, {Lahav}, {Moustakas}, {Ogaz},
   {Rosati}, {Seitz}, \& {Zheng}}]{Medezinski2013}
 {Medezinski}, E., {Umetsu}, K., {Nonino}, M., {et~al.} 2013, \apj, 777, 43
+
+\bibitem[{{Simionescu} {et~al.}(2015){Simionescu}, {Werner}, {Urban}, {Allen},
+  {Ichinohe}, \& {Zhuravleva}}]{Simionescu2015}
+{Simionescu}, A., {Werner}, N., {Urban}, O., {et~al.} 2015, \apjl, 811, L25
 
 \bibitem[{{Springel} \& {Farrar}(2007)}]{Springel2007}
 {Springel}, V., \& {Farrar}, G.~R. 2007, \mnras, 380, 911
