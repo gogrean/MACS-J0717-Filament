@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{31}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
@@ -113,6 +113,17 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90
 \bibitem[{{Springel} {et~al.}(2006){Springel}, {Frenk}, \&
   {White}}]{Springel2006}
 {Springel}, V., {Frenk}, C.~S., \& {White}, S.~D.~M. 2006, \nat, 440, 1137
+
+\bibitem[{{Umetsu} {et~al.}(2016){Umetsu}, {Zitrin}, {Gruen}, {Merten},
+  {Donahue}, \& {Postman}}]{Umetsu2016}
+{Umetsu}, K., {Zitrin}, A., {Gruen}, D., {et~al.} 2016, \apj, 821, 116
+
+\bibitem[{{Umetsu} {et~al.}(2014){Umetsu}, {Medezinski}, {Nonino}, {Merten},
+  {Postman}, {Meneghetti}, {Donahue}, {Czakon}, {Molino}, {Seitz}, {Gruen},
+  {Lemze}, {Balestra}, {Ben{\'{\i}}tez}, {Biviano}, {Broadhurst}, {Ford},
+  {Grillo}, {Koekemoer}, {Melchior}, {Mercurio}, {Moustakas}, {Rosati}, \&
+  {Zitrin}}]{Umetsu2014}
+{Umetsu}, K., {Medezinski}, E., {Nonino}, M., {et~al.} 2014, \apj, 795, 163
 
 \bibitem[{{Werner} {et~al.}(2008){Werner}, {Finoguenov}, {Kaastra},
   {Simionescu}, {Dietrich}, {Vink}, \& {B{\"o}hringer}}]{Werner2008}
