@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
@@ -67,6 +67,11 @@
 
 \bibitem[{Hunter(2007)}]{Hunter2007}
 Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90
+
+\bibitem[{{Ichinohe} {et~al.}(2015){Ichinohe}, {Werner}, {Simionescu}, {Allen},
+  {Canning}, {Ehlert}, {Mernier}, \& {Takahashi}}]{Ichinohe2015}
+{Ichinohe}, Y., {Werner}, N., {Simionescu}, A., {et~al.} 2015, \mnras, 448,
+  2971
 
 \bibitem[{{Jauzac} {et~al.}(2012){Jauzac}, {Jullo}, {Kneib}, {Ebeling},
   {Leauthaud}, {Ma}, {Limousin}, {Massey}, \& {Richard}}]{Jauzac2012}
