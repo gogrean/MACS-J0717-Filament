@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
@@ -111,6 +111,10 @@ Hunter, J.~D. 2007, Computing In Science \& Engineering, 9, 90
   {Infante}, {Jim{\'e}nez-Teja}, {Jouvel}, {Lahav}, {Moustakas}, {Ogaz},
   {Rosati}, {Seitz}, \& {Zheng}}]{Medezinski2013}
 {Medezinski}, E., {Umetsu}, K., {Nonino}, M., {et~al.} 2013, \apj, 777, 43
+
+\bibitem[{{Rasmussen} \& {Ponman}(2007)}]{Rasmussen2007}
+{Rasmussen}, J., \& {Ponman}, T.~J. 2007, in Groups of Galaxies in the Nearby
+  Universe, ed. I.~{Saviane}, V.~D. {Ivanov}, \& J.~{Borissova}, 325
 
 \bibitem[{{Simionescu} {et~al.}(2015){Simionescu}, {Werner}, {Urban}, {Allen},
   {Ichinohe}, \& {Zhuravleva}}]{Simionescu2015}
