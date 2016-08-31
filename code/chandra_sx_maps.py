@@ -1,8 +1,7 @@
 import aplpy
-import matplotlib.pylab as plt
 
 def chandra_image(img_fname, scale=[None, None], fov=[0, 0, 0.1, 0.1],
-                  scalebar_length=0.05):
+                  scalebar_length=0.05, smooth=None):
     '''
     Take the Chandra surface brightness map, recenter it, smooth it
     with a Gaussian of width 1 pixel, and plot it log-scaled between the
@@ -26,11 +25,14 @@ def chandra_image(img_fname, scale=[None, None], fov=[0, 0, 0.1, 0.1],
 
         scalebar_length : float, optional
             Length of the scalebar, in degrees. Defaults to 0.05 degrees.
+
+        smooth : None or odd int, optional
+            Width of the Gaussian used to smooth the image.
     '''
     fig = aplpy.FITSFigure(img_fname)
     fig.recenter(fov[0], fov[1], width=fov[2], height=fov[3])
     fig.show_colorscale(vmin=scale[0], vmax=scale[1], cmap='viridis',
-                        smooth=1, stretch='log')
+                        smooth=smooth, stretch='log')
 
     fig.tick_labels.set_xformat('hhmmss')
     fig.tick_labels.set_yformat('ddmmss')
@@ -50,10 +52,12 @@ CHANDRA_IMG = DATADIR + "src_bin4_500-4000_gapsfilled_flux.img"
 FOV = [109.40485,37.74404,0.165,0.158]
 SCALE = [5E-9, 4E-7]
 SCALEBAR = 0.04348
+SMOOTH = 1
 
 # Fig 2a: Chandra surface brightness map, with the features discussed in
 # the paper labeled.
-fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV, scalebar_length=SCALEBAR)
+fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV,
+                    scalebar_length=SCALEBAR, smooth=SMOOTH)
 fig.add_label(109.463, 37.735, 'FILAMENT', variant='small-caps',
               family='sans-serif', size=12, color='white')
 fig.add_label(109.436, 37.6938, 'GROUP', variant='small-caps',
@@ -65,6 +69,7 @@ fig.save(PLOTSDIR + 'fil-labels.pdf', dpi=400)
 # Fig 2b: Chandra surface brightness map showing the regions used for
 # modeling the spectra of the emission coming from the infalling group and
 # from the filament.
-fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV, scalebar_length=SCALEBAR)
+fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV,
+                    scalebar_length=SCALEBAR, smooth=SMOOTH)
 fig.show_regions(DATADIR + 'filament_composite.reg')
 fig.save(PLOTSDIR + 'fil-regions.pdf', dpi=400)
