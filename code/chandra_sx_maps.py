@@ -51,7 +51,7 @@ FOV = [109.40485,37.74404,0.165,0.158]
 SCALE = [5E-9, 4E-7]
 SCALEBAR = 0.04348
 
-# Fig 1a: Chandra surface brightness map, with the features discussed in
+# Fig 2a: Chandra surface brightness map, with the features discussed in
 # the paper labeled.
 fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV, scalebar_length=SCALEBAR)
 fig.add_label(109.463, 37.735, 'FILAMENT', variant='small-caps',
@@ -62,7 +62,7 @@ fig.show_arrows([109.458, 109.44973], [37.730, 37.694347],
                 [-0.010, 0.011], [-0.010, 0.003], color='white')
 fig.save(PLOTSDIR + 'fil-labels.pdf', dpi=400)
 
-# Fig 1b: Chandra surface brightness map showing the regions used for
+# Fig 2b: Chandra surface brightness map showing the regions used for
 # modeling the spectra of the emission coming from the infalling group and
 # from the filament.
 fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV, scalebar_length=SCALEBAR)
