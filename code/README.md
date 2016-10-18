@@ -6,3 +6,4 @@
 |[`group.py`](https://github.com/gogrean/MACS-J0717-Filament/blob/master/code/group.py) | Reproduces last panel of Fig. 3 of the paper.|
 |[`notebooks/MACS J0717.5+3745.ipynb`](https://github.com/gogrean/MACS-J0717-Filament/blob/master/code/notebooks/MACS%20J0717.5%2B3745.ipynb) | Reproduces the analysis of the Chandra data used in the paper. |
 |[`notebooks/Filament.ipynb`](https://github.com/gogrean/MACS-J0717-Filament/blob/master/code/notebooks/Filament.ipynb) | Reproduces the calculations done to determine the properties of the filament. |
+|[`notebooks/Group.ipynb`](https://github.com/gogrean/MACS-J0717-Filament/blob/master/code/notebooks/Group.ipynb) | Reproduces the calculations done to determine the properties of the group in the filament. |
