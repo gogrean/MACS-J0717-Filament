@@ -62,14 +62,28 @@ fig.add_label(109.463, 37.735, 'FILAMENT', variant='small-caps',
               family='sans-serif', size=12, color='white')
 fig.add_label(109.436, 37.6938, 'GROUP', variant='small-caps',
               family='sans-serif', size=12, color='white')
-fig.show_arrows([109.458, 109.44973], [37.730, 37.694347],
-                [-0.010, 0.011], [-0.010, 0.003], color='white')
+fig.show_arrows([109.458, 109.44973, 109.36008, 109.36008], [37.730, 37.694347, 37.704172, 37.704172],
+                [-0.010, 0.011, -0.012, -0.010], [-0.010, 0.003, 0.004, 0.010], color='white')
+fig.add_label(109.3738, 37.703072, "'FINGER'", variant='small-caps', 
+              family='sans-serif', size=12, color='white')
 fig.save(PLOTSDIR + 'fil-labels.pdf', dpi=400)
 
 # Fig 2b: Chandra surface brightness map showing the regions used for
-# modeling the spectra of the emission coming from the infalling group and
-# from the filament.
+# modeling the spectra of the emission coming from the infalling group, 
+# from the filament, and from the cold SW region.
 fig = chandra_image(CHANDRA_IMG, scale=SCALE, fov=FOV,
                     scalebar_length=SCALEBAR, smooth=SMOOTH)
 fig.show_regions(DATADIR + 'filament_composite.reg')
+fig.add_label(0.283, 0.33, 'A',
+              relative=True, variant='small-caps',
+              family='sans-serif', size=12, color='white')
+fig.add_label(0.485, 0.155, 'B', 
+              relative=True, variant='small-caps', 
+              family='sans-serif', size=12, color='white')
+fig.add_label(0.835, 0.82, 'C',
+              relative=True, variant='small-caps',
+              family='sans-serif', size=12, color='white')
+fig.add_label(0.84, 0.27, 'D',
+              relative=True, variant='small-caps',
+              family='sans-serif', size=12, color='orange')
 fig.save(PLOTSDIR + 'fil-regions.pdf', dpi=400)

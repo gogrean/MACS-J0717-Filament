@@ -1,10 +1,11 @@
 .DS_Store
-macsj0717-fil.aux
-macsj0717-fil.blg
-macsj0717-fil.log
-macsj0717-fil.out
-macsj0717-fil.synctex.gz
-macsj0717-filNotes.bib
+*.aux
+*.blg
+*.out
+*.synctex.gz
+*-filNotes.bib
+*-apjlNotes.bib
+*-apjNotes.bib
 plots/__pycache__/
 plots/core_sx_circ.reg
 plots/core_sx_ell.reg

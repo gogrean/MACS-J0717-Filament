@@ -3,4 +3,6 @@ global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=
 fk5
 box(7:17:38.303,+37:41:29.44,222.972",106.291",134) # color=white width=2 dash=1
 box(7:17:47.833,+37:43:03.41,61.4741",73.8",134) # color=white width=2
-ellipse(7:17:53.347,+37:42:09.25,47.0",47.0",40) # color=yellow width=2
+ellipse(7:17:53.347,+37:42:09.25,47",47",40) # color=yellow width=2
+epanda(7:17:32.772,+37:45:02.69,302.024,325.287,1,179.362",179.362",251.54",251.54",1,2.39317e-09) # color=orange width=2
+epanda(7:17:32.772,+37:45:02.69,2.39317e-09,100,1,179.362",179.362",251.54",251.54",1,2.39317e-09) # color=white width=2 background
